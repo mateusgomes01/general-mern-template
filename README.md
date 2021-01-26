@@ -1,4 +1,4 @@
-# general-mern-template - develop branch
+# general-mern-template
 
 General MERN project template for a variety of projects, initially based on the following tutorial: 
 
