@@ -18,9 +18,9 @@ export const createPost = async (req, res) => {
     const newPost = new PostMessage(body);
 
     try {
-        await newPost.save();
+        await newPost.save(); // saves model on database (model is a mongoose schema)
 
-        // https://www.restapitutorial.com/httpstatuscodes.html
+        // https://www.restapitutorial.com/httpstatuscodes.html <- to check api status codes
 
         res.status(201).json(newPost);
     } catch (error) {
